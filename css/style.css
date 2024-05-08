@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    user-select: none;
+}
+
+body {
+    background-image: repeating-linear-gradient(90deg, hsla(57, 0%, 42%, 0.09) 0px, hsla(57, 0%, 42%, 0.09) 1px, transparent 1px, transparent 60px), repeating-linear-gradient(0deg, hsla(57, 0%, 42%, 0.09) 0px, hsla(57, 0%, 42%, 0.09) 1px, transparent 1px, transparent 60px), repeating-linear-gradient(0deg, hsla(57, 0%, 42%, 0.09) 0px, hsla(57, 0%, 42%, 0.09) 1px, transparent 1px, transparent 10px), repeating-linear-gradient(90deg, hsla(57, 0%, 42%, 0.09) 0px, hsla(57, 0%, 42%, 0.09) 1px, transparent 1px, transparent 10px), linear-gradient(90deg, rgb(20, 20, 20), rgb(20, 20, 20));
+}
+
+/* NavBar Menu Start */
+
+.nav-bar {
+    color: aliceblue;
+    width: auto;
+    height: 45px;
+    background-image: repeating-linear-gradient(90deg, hsla(57, 0%, 42%, 0.09) 0px, hsla(57, 0%, 42%, 0.09) 1px, transparent 1px, transparent 60px), repeating-linear-gradient(0deg, hsla(57, 0%, 42%, 0.09) 0px, hsla(57, 0%, 42%, 0.09) 1px, transparent 1px, transparent 60px), repeating-linear-gradient(0deg, hsla(57, 0%, 42%, 0.09) 0px, hsla(57, 0%, 42%, 0.09) 1px, transparent 1px, transparent 10px), repeating-linear-gradient(90deg, hsla(57, 0%, 42%, 0.09) 0px, hsla(57, 0%, 42%, 0.09) 1px, transparent 1px, transparent 10px), linear-gradient(90deg, rgb(20, 20, 20), rgb(20, 20, 20));
+    position: sticky;
+    top: 0;
+}
+
+.nav-bar>nav>h4 {
+    padding: 10px;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+.nav-bar>nav>h4:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
+    text-decoration: underline;
+    text-shadow: 1px 3px 10px red, -2px -3px 10px blue;
+}
+
+.nav-bar>nav {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav-bar>nav>ul>li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    transition: 0.4s;
+}
+
+.nav-bar>nav>ul>li:hover {
+    transform: scale(1.1);
+}
+
+.nav-bar>nav>ul>li>a {
+    text-decoration: none;
+}
+
+.nav-bar>nav>ul>li>a:hover {
+    text-shadow: 1px 3px 10px red, -2px -3px 10px blue;
+    text-decoration: underline;
+}
+
+.nav-bar>nav>button {
+    margin-right: 15px;
+    padding: 5px;
+    background-color: transparent;
+    border: 0.1px solid aliceblue;
+    border-radius: 15px;
+    transition: 0.4s;
+}
+
+.nav-bar>nav>button:hover {
+    box-shadow: 1px 3px 10px red, -2px -3px 10px blue;
+    transition: 0.4s;
+    transform: scale(1.1)
+}
+
+/* NavBar Menu End*/
+
+
+
+/*Delete this*/
+.center-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.center-image>img {
+    filter: drop-shadow(1px 3px 10px red);
+    transition: 0.5s;
+}
+
+.center-image>img:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    filter: drop-shadow(1px 3px 10px blue);
+}
